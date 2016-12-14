@@ -18,9 +18,12 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "./style.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./jquery-1.10.2.js",
+        "./bootstrap.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
